@@ -1,0 +1,60 @@
+@charset "UTF-8";
+body {
+    background: #f5f5f5;
+    color: #000000;
+}
+
+.main-header {
+    background: url(../img/blog-yazmanın-mutlu-eden-yanları-1.jpg);
+    color: #fff;
+    height: 220px;
+    margin-bottom: 30px;
+}
+
+.main-header h1 {
+    margin: 2%;
+}
+
+.img-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 220px;
+}
+
+.card-content {
+    color: #000000;
+}
+
+.page-footer {
+    background: #212121;
+}
+
+.page-footer .footer-copyright {
+    background: #424242;
+}
+
+.modal {
+    color: #333;
+}
+
+.row-1,
+.row-2,
+.row-3 {
+    opacity: 0;
+}
+
+.hovGit:hover {
+    filter: contrast(40%);
+}
+
+.hovGit:active {
+    mix-blend-mode: difference;
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
